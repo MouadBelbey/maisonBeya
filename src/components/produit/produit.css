@@ -1,0 +1,37 @@
+article {
+    width: min-content;
+}
+
+.produit__container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    flex-flow: wrap;
+}
+
+.produit__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.produit__item:hover {
+
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.produit__item-img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 20rem;
+}
+
+.poroduit__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 5px;
+}
