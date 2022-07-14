@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/maisonBeya/static/css/main.94ed7a0c.css",
-    "main.js": "/maisonBeya/static/js/main.c7632856.js",
+    "main.js": "/maisonBeya/static/js/main.aca9b585.js",
     "static/media/BGIMG.jpeg": "/maisonBeya/static/media/BGIMG.171ac882f3965de0ae1c.jpeg",
+    "static/media/item1.jpeg": "/maisonBeya/static/media/item1.9bc35f59627fa2bb75f8.jpeg",
+    "static/media/item2.jpeg": "/maisonBeya/static/media/item2.3b69de3a99c4cb1f13a5.jpeg",
     "static/media/item0.jpeg": "/maisonBeya/static/media/item0.20f8ac74361e912c4ab3.jpeg",
     "index.html": "/maisonBeya/index.html",
     "main.94ed7a0c.css.map": "/maisonBeya/static/css/main.94ed7a0c.css.map",
-    "main.c7632856.js.map": "/maisonBeya/static/js/main.c7632856.js.map"
+    "main.aca9b585.js.map": "/maisonBeya/static/js/main.aca9b585.js.map"
   },
   "entrypoints": [
     "static/css/main.94ed7a0c.css",
-    "static/js/main.c7632856.js"
+    "static/js/main.aca9b585.js"
   ]
 }
