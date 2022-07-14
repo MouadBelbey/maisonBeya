@@ -1,28 +1,30 @@
 import React from 'react'
 import './produit.css'
 import PIC0 from '../../assets/item0.jpeg'
+import PIC1 from '../../assets/item1.jpeg'
+import PIC2 from '../../assets/item2.jpeg'
 
 const data = [
   {
     id: 0,
     image: PIC0,
-    title: 'testTiltle',
+    title: 'testTitle',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto  ratione aut asperiores laborum quam perferendis nam rem at, nesciunt sapiente minus error omnis, quod in beatae, id veritatis harum ipsa!",
-    instagram: "https://instagram.com"
+    instagram: "https://www.instagram.com/maison.beya.1/"
   },
   {
-    id: 0,
-    image: PIC0,
-    title: 'testTiltle',
+    id: 1,
+    image: PIC1,
+    title: 'testTitle',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto  ratione aut asperiores laborum quam perferendis nam rem at, nesciunt sapiente minus error omnis, quod in beatae, id veritatis harum ipsa!",
-    instagram: "https://instagram.com"
+    instagram: "https://www.instagram.com/maison.beya.1/"
   },
   {
-    id: 0,
-    image: PIC0,
-    title: 'testTiltle',
+    id: 2,
+    image: PIC2,
+    title: 'testTitle',
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto  ratione aut asperiores laborum quam perferendis nam rem at, nesciunt sapiente minus error omnis, quod in beatae, id veritatis harum ipsa!",
-    instagram: "https://instagram.com"
+    instagram: "https://www.instagram.com/maison.beya.1/"
   }
 ]
 

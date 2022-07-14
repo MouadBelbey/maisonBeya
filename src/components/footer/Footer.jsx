@@ -16,7 +16,7 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="" target="_blank"><BsFacebook className='footer__socials-icon'/></a>
+        <a href="https://www.facebook.com/Maison.Beya.1/" target="_blank"><BsFacebook className='footer__socials-icon'/></a>
         <a href="" target="_blank"><BsInstagram className='footer__socials-icon'/></a>
       </div>
 
