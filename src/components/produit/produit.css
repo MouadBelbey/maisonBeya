@@ -3,10 +3,10 @@ article {
 }
 
 .produit__container {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    flex-flow: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5em;
+    margin: 20px auto;
 }
 
 .produit__item {
@@ -35,3 +35,29 @@ article {
     margin-bottom: 1rem;
     padding-top: 5px;
 }
+
+/* ############## MEDIA QUERIES (MEDIUM DEVICES) ################# */
+
+@media screen and (max-width: 1300px) {
+
+    .produit__container {
+     grid-template-columns: 1fr 1fr;
+     max-width: fit-content;
+     gap: 2em;
+    }
+ 
+   
+ 
+     
+ }
+ 
+ /* ############## MEDIA QUERIES (SMALL DEVICES) ################# */
+ 
+ @media screen and (max-width: 600px) {
+     
+    .produit__container {
+        grid-template-columns: 1fr;
+        max-width: fit-content;
+     }
+     
+ }

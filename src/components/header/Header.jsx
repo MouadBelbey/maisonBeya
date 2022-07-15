@@ -6,7 +6,7 @@ function Header() {
   return (
     <header id='#'>
       <div className="container header__container background">
-          <img src={BGIMG} alt="" />
+          <img src={BGIMG} alt="Main pic" />
           <h1>Maison Beya</h1>
       </div>
     </header>
